@@ -2,8 +2,7 @@
 
 TypoTracker is a Python script designed to track keyboard inputs and send notifications when specific key bindings are activated. This tool is intended to run in any environment where Python is available, making it suitable for various use cases including analyzing typing habits and monitoring keyboard activity.
 
-![SS 2023-12-26 2.05.55.png](https://cdn-ak.f.st-hatena.com/images/fotolife/m/masatora_bd5/20231226/20231226020630.png)
-
+![SS 2023-12-26 2.10.34.png](https://cdn-ak.f.st-hatena.com/images/fotolife/m/masatora_bd5/20231226/20231226021058.png)
 
 ## Features
 
