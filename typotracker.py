@@ -11,10 +11,10 @@ DEFAULT_CONFIG = {
     "log_file_path": "~/typotracker_log.txt",
     "keyboard_name": "standard keyboard",
     "trigger_key": {
-        "ctrl": False,
+        "ctrl": True,
         "shift": True,
         "alt": False,
-        "cmd": True,
+        "cmd": False,
         "key": ';'
     },
     "notification_type": "None",
