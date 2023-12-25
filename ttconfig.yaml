@@ -6,11 +6,11 @@ keyboard_name: "standard keyboard"
 
 # trigger_key: Key bindings to trigger TypoTracker
 trigger_key:
-  ctrl: False  # Whether the Ctrl key is included in the trigger
+  ctrl: True  # Whether the Ctrl key is included in the trigger
   shift: True  # Whether the Shift key is included in the trigger
   alt: False  # Whether the Alt key is included in the trigger
-  cmd: True  # Whether the Cmd key is included in the trigger (mainly for Mac)
-  key: ';'  # Specific key for the trigger (in this case, the 'l' key)
+  cmd: False  # Whether the Cmd key is included in the trigger (mainly for Mac)
+  key: ';'  # Specific key for the trigger (in this case, the ';' key)
 
 # notification_type: Type of notification system to use ('macOS', 'Windows', 'Linux', 'None')
 notification_type: 'None'
