@@ -47,6 +47,56 @@ To run the script, use the following command:
 python typotracker.py
 ```
 
+## Running in a Virtual Environment
+
+If you prefer to run TypoTracker in a virtual environment, you can follow these steps:
+
+1. **Create a Virtual Environment** (Optional):
+   If you haven't already, you can create a virtual environment using `virtualenv` or `venv`. For example, using `venv`:
+
+   ```
+   python -m venv env_typotracker
+   ```
+
+   Activate the virtual environment:
+
+   - On macOS/Linux:
+     ```
+     source env_typotracker/bin/activate
+     ```
+
+   - On Windows:
+     ```
+     .\env_typotracker\Scripts\activate
+     ```
+
+2. **Install Dependencies**:
+   Inside your virtual environment, install the required dependencies using pip as mentioned in the Setup section:
+
+   ```
+   pip install pynput pyyaml
+   ```
+
+3. **Configure Settings**:
+   Customize the `ttconfig.yaml` file with your desired settings as explained in the Setup section.
+
+4. **Run TypoTracker**:
+   Run TypoTracker within the virtual environment:
+
+   ```
+   python typotracker.py
+   ```
+
+5. **Deactivate Virtual Environment** (Optional):
+   When you're done using TypoTracker, you can deactivate the virtual environment:
+
+   ```
+   deactivate
+   ```
+
+This will ensure that TypoTracker runs in an isolated environment, keeping your system's Python installation unaffected.
+
+
 ## License
 
 This project is released under the [MIT License](LICENSE).
